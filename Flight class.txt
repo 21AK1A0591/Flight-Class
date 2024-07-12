@@ -1,0 +1,19 @@
+import java.util.Date;
+
+public class Flight {
+    private int id;
+    private String origin;
+    private String destination;
+    private Date departureTime;
+    private int availableSeats;
+
+    public Flight(int id, String origin, String destination, Date departureTime, int availableSeats) {
+        this.id = id;
+        this.origin = origin;
+        this.destination = destination;
+        this.departureTime = departureTime;
+        this.availableSeats = availableSeats;
+    }
+
+    // Getters and setters
+}
